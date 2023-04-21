@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-conatainer {
+    background-color: pink;
+    min-height: 100vh;
+}
+
+.icon {
+    font-size: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 25, 40);
+    padding: 10px;
+    height: 55px;
+    width: 55px;
+}
+
+.icon-container2 {
+    width: 100%;
+    padding: 32px;
+}
+
+.logo-heading {
+    font-family: I0mpact;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(2, 2, 30);
+    margin-left: 7px;
+
+}
+
+.address-container {
+    border-bottom: 5px solid;
+    width: 50%;
+}
+
+.heading-container {
+    width: 50%;
+    margin-left: 10px;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+}
+
+.card-conatiner {
+    width: 100%;
+}
+
+.heading {
+    font-weight: 800;
+    font-family: "Roboto";
+    font-size: 52px
+}
+
+.desc {
+    font-size: 20px;
+    font-family: I0mpact;
+}
+
+.span {
+    font-weight: 700;
+}
+
+.skill-container {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    width: 50%;
+}
+
+.skill-container2 {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    width: 50%;
+    padding: 16px;
+}
+
+.br {
+    width: 100%;
+}
+
+.intrest-logo {
+    font-size: 35px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid rgb(25, 25, 40);
+    padding: 16px;
+    height: 75px;
+    width: 75px;
+}
+
+.intrest-container {
+    border: 2px solid;
+    width: 100%;
+}
+
+.bottom-eduaction-container {
+    border-top: 5px solid;
+    margin: 22px;
+    padding: 22px;
+}
+
+.interests-con {
+    padding-top: 22px;
+    margin-left: 5px;
+}
+
+@media screen and  (max-width:576px) {
+    .card-conatiner {
+        width: 95%;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .address-container {
+        width: 100%;
+    }
+
+    .icon-container2 {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .desc {
+        font-size: 11px;
+    }
+
+    .span {
+        font-size: 9px;
+    }
+
+    .heading-container {
+
+        padding-right: 36px;
+    }
+    .skill-container2 {
+        width: 100%;
+    }
+
+    .icon-size {
+        font-size: 12px;
+    }
+
+    .interests-con {
+        width: 100%;
+        padding-top: 12px;
+        margin-left: 12px;
+    }
+}
